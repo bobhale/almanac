@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Storyurls</key>
+	<array/>
+	<key>Places</key>
+	<string>http://www.saintpaulalmanac.org/saint-paul-stories/places/feed/</string>
+	<key>Historyurl</key>
+	<string>http://www.saintpaulalmanac.org/saint-paul-stories/history/feed/</string>
+</dict>
+</plist>

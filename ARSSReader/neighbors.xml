@@ -1,0 +1,76 @@
+<mapdata>
+    <city>St. Paul, MN</city>
+    <neighborhoods>
+        <neighborhood>
+            <name>Battle Creek</name>
+            <description>Battle Creek Park</description>
+            <location>44.93894,-93.00207</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Como Park</name>
+            <description>Lake Como, Como Zoo and Conservatory</description>
+            <location>44.982631,-93.154232</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Dayton's Bluff</name>
+            <description>Swede Hollow, Mounds Park</description>
+            <location>44.954301,-93.062628</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Downtown</name>
+            <description>Lower Town, Mississippi River</description>
+            <location>44.953703,-93.089958</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Greater East Side</name>
+            <description>Arcade, Minnehaha</description>
+            <location>44.96221,-93.02258</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Highland Park</name>
+            <description>Golf Course, Water Tower</description>
+            <location>44.91713,-93.17158</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Macalester-Groveland</name>
+            <description>Macalaster College, Grand Avenue</description>
+            <location>44.93681,-93.16927</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Midway</name>
+            <description>A Tale of Two Cities</description>
+            <location>44.95407,-93.16712</location>
+        </neighborhood>
+        <neighborhood>
+            <name>North End</name>
+            <description>Rice Steet, Oakland Cemetery</description>
+            <location>44.97848,-93.10266</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Payne-Phalen</name>
+            <description>Lake Phalen, Trout Brook</description>
+            <location>44.98012,-93.05365</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Saint Anthony Park</name>
+            <description>Tangled Avenues</description>
+            <location>44.98431,-93.18961</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Summit-University</name>
+            <description>Heart of the City</description>
+            <location>44.94769,-93.13098</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Summit Hill-Crocus Hill</name>
+            <description>Homes with a View</description>
+            <location>44.93785,-93.12575</location>
+        </neighborhood>
+        <neighborhood>
+            <name>Thomas Dale-Frogtown</name>
+            <description>Little Mekong, Frogtown Farms</description>
+            <location>44.95972,-93.12626</location>
+        </neighborhood>
+</neighborhoods>
+</mapdata>
+

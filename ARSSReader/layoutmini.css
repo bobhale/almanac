@@ -1,0 +1,48 @@
+/* CSS Document */
+
+
+body {background-color:#FFFFFF;}
+
+html {margin:0;padding:0;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;}
+
+ul, li {list-style-type:circle;margin:0;padding:0;}
+li a {text-decoration:none;color:black;}
+h1 {font-size:19px;font-weight:bold;color:#0000CC;padding-left:20px;}
+h2 {font-size:14px;font-weight:bold;padding-left:20px;color:#9E3345;}
+h3 {font-size:12px;font-weight:bold;padding-left:20px;color:#000000;}
+img {display: block;border:none;}
+img p {margin:0;padding:0;}
+
+a:link {color:#339999;}
+<!--#navigation {background-image:url(images/navi.gif);background-repeat:no-repeat;width:756px;height:42px;}
+#navigation ul {padding-left:20px;}
+#navigation ul li {float:left;font-size:11px;padding-right:15px;background-image:url(images/divider.gif);background-position:right;background-repeat:no-repeat;height:30px;}
+#navigation ul li a {padding-right:15px;position:relative;top:9px;}
+#banner {background-image:url(images/sushi.jpg);background-position: 7px 5px;width:756px;height:110px;background-repeat:no-repeat;}
+#center {background-image:url(bboo22.png);width:100%;margin:auto;margin-bottom:10px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;font-color:#000000;}
+
+.active {background-image:url(images/subnavi_active.jpg);width:185px;padding:0;margin:0;}
+.current {font-weight:bold;}
+.normal {background-image:url(images/border.gif);background-repeat:no-repeat;padding:0;margin:0;}
+
+#subnavigation {float:left;}
+#subnavigation ul li {margin-left:9px;padding-top:9px;padding-bottom:7px;}
+#subnavigation ul li a {padding-left:25px;}
+
+#content {float:left;width:90%;margin-left:5px;padding-left:5px;line-height:14px;margin-top:25px;padding-bottom:45px;}
+-->
+#footer {font-size:9px;text-align:center;margin-right:14px;padding-bottom:10px;text-decoration:none;color:#BBBEC7;}
+#footer a {text-decoration:none;color:#BBBEC7;}
+.float-me {float:left;width:30%;padding-right:5px;margin:0;}
+.float-left {float:left;width:158px;padding-right:5px;margin:0;}
+.float-none {clear:left;display:block;color:#000000;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px}
+
+.cleaner
+{
+	clear:both;
+	height:1px;
+	Font-size:1px;
+	border:0px none;
+	margin:0;padding:0;
+	background:transparent;
+}
