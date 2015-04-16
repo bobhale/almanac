@@ -39,6 +39,7 @@
      UITabBarItem *tabBarItem2 = [tabBar.items objectAtIndex:1];
      UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
      UITabBarItem *tabBarItem4 = [tabBar.items objectAtIndex:3];
+     UITabBarItem *tabBarItem5 = [tabBar.items objectAtIndex:4];
      //UITabBarItem *tabBarItem5 = [tabBar.items objectAtIndex:4];
      
      UIImage *image = [UIImage imageNamed:@"810-document-2.png"];
@@ -49,14 +50,15 @@
      image3 = [image3 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     UIImage *image4 = [UIImage imageNamed:@"777-thumbs-up.png"];
      image4 = [image4 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-     
+    UIImage *image5 = [UIImage imageNamed:@"729-top-list.png"];
+    image5 = [image5 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
      //UIImage *image5 = [UIImage imageNamed:@"777-thumbs-up.png"];
      //image5 = [image5 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
      //tabBarItem1.selectedImage= [UIImage imageNamed:@"753-signpost-
      tabBarItem1.image = image; //[UIImage imageNamed:@"753-signpost.png"];
      tabBarItem1.selectedImage= [UIImage imageNamed:@"810-document-2-selected.png"];
      tabBarItem2.image = image2;
-     tabBarItem2.selectedImage = [UIImage imageNamed:@"852-map-selected.png"];
+     tabBarItem2.selectedImage = [UIImage imageNamed:@"852-/Users/roberthale/Developer/SaintPaulAlamancUpdate/ARSSReader/ARSSReader/DetailViewController.hmap-selected.png"];
     
      tabBarItem3.image = image3;
      tabBarItem3.selectedImage = [UIImage imageNamed:@"851-calendar-selected.png"];
@@ -64,7 +66,9 @@
      tabBarItem4.image = image4;
      tabBarItem4.selectedImage = [UIImage imageNamed:@"777-thumbs-up-selected.png"];
     
-     
+    tabBarItem5.image = image5;
+    tabBarItem5.selectedImage = [UIImage imageNamed:@"729-top-list-selected.png"];
+    
      // sets color of text on tab bar itmes to white rather than tinted....
      [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName :
      [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],

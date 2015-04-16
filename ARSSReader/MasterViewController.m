@@ -185,10 +185,10 @@ NSLog(@"How do I do here");
     //[TableHeaderView setText:@"Fetching Stories" ];
     //[self TableViewControl setT]
     //if (*iDx != 4) {
-    if (iDx != 0){
+   // if (iDx != 0){
    [(TableHeaderView*)self.tableView.tableHeaderView setText:@"Please wait while updating...."];
     [self refreshFeed];
-    }
+  //  }
     //}
 }
 -(void)refreshFeed

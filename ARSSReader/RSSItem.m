@@ -6,6 +6,8 @@
 
 @implementation RSSItem
 
+@synthesize description;
+
 -(NSAttributedString*)cellMessage
 {
     if (_cellMessage!=nil) return _cellMessage;
@@ -42,11 +44,11 @@
     }
     
     
-    NSString* description = [NSString stringWithFormat:@"%@...", [self.description substringToIndex:tester]];
-    description = [description gtm_stringByUnescapingFromHTML];
+    NSString* description2 = [NSString stringWithFormat:@"%@...", [self.description substringToIndex:tester]];
+    description2 = [description2 gtm_stringByUnescapingFromHTML];
     
     [articleAbstract appendAttributedString:
-     [[NSAttributedString alloc] initWithString: description]
+     [[NSAttributedString alloc] initWithString: description2]
      ];
     
     [articleAbstract setAttributes:normalStyle

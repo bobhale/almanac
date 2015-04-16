@@ -29,8 +29,6 @@
 		9C947BB5163E835500842C2F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C947BB3163E835500842C2F /* MainStoryboard.storyboard */; };
 		9C947BB8163E835500842C2F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C947BB7163E835500842C2F /* MasterViewController.m */; };
 		9C947BBB163E835500842C2F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C947BBA163E835500842C2F /* DetailViewController.m */; };
-		AB0EEF1D188728C500C38FFE /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0EEF1C188728C500C38FFE /* GoogleMaps.framework */; };
-		AB0EEF1F1887295500C38FFE /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB0EEF1E1887295500C38FFE /* GoogleMaps.bundle */; };
 		AB0EEF2318872DD900C38FFE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0EEF2218872DD900C38FFE /* CoreLocation.framework */; };
 		AB0EEF2518872DEA00C38FFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0EEF2418872DEA00C38FFE /* CoreData.framework */; };
 		AB0EEF2718872E0800C38FFE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0EEF2618872E0800C38FFE /* CoreText.framework */; };
@@ -78,6 +76,12 @@
 		AB1BFD451741D08B00B00DBC /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BFD441741D08B00B00DBC /* Map.m */; };
 		AB3623A219A00E81000C3E09 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3623A119A00E81000C3E09 /* MBProgressHUD.m */; };
 		AB46E79A1A213105008DED04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB46E7991A213105008DED04 /* Images.xcassets */; };
+		AB4B894B1A79F7FA00E9BC4A /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4B894A1A79F7FA00E9BC4A /* GoogleMaps.framework */; };
+		AB4B894D1A79F91F00E9BC4A /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB4B894C1A79F91F00E9BC4A /* GoogleMaps.bundle */; };
+		AB9DEE291ADECCC600BACDC5 /* 729-top-list-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9DEE271ADECCC600BACDC5 /* 729-top-list-selected.png */; };
+		AB9DEE2A1ADECCC600BACDC5 /* 729-top-list-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9DEE281ADECCC600BACDC5 /* 729-top-list-selected@2x.png */; };
+		AB9DEE2D1ADECD3F00BACDC5 /* 729-top-list.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9DEE2B1ADECD3F00BACDC5 /* 729-top-list.png */; };
+		AB9DEE2E1ADECD3F00BACDC5 /* 729-top-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9DEE2C1ADECD3F00BACDC5 /* 729-top-list@2x.png */; };
 		ABA23C3519A146180008FCB8 /* saint-paul-almanackk.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA23C3419A146180008FCB8 /* saint-paul-almanackk.png */; };
 		ABA23C3719A14C180008FCB8 /* headerbackgrnd.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA23C3619A14C180008FCB8 /* headerbackgrnd.png */; };
 		ABA46FB219E03BFB00F941F7 /* 777-thumbs-up.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA46FB019E03BFB00F941F7 /* 777-thumbs-up.png */; };
@@ -116,6 +120,7 @@
 		ABB534DD1A1E7799006CAD0D /* faces_almanac_nav2.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB534DC1A1E7799006CAD0D /* faces_almanac_nav2.png */; };
 		ABB534DF1A1EC76D006CAD0D /* backheadalamanac.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB534DE1A1EC76D006CAD0D /* backheadalamanac.png */; };
 		ABB5A0241A12C36A001495E6 /* listofurls.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABB5A0231A12C36A001495E6 /* listofurls.plist */; };
+		ABC610601ADF0A31000B0BD8 /* TwispViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC6105F1ADF0A31000B0BD8 /* TwispViewController.m */; };
 		ABEB892A1A3E1A4200D25687 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEB89291A3E1A4200D25687 /* libGoogleAnalyticsServices.a */; };
 		ABEB892C1A3E1AD400D25687 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEB892B1A3E1AD400D25687 /* libsqlite3.0.dylib */; };
 		ABEB892E1A3E1ADE00D25687 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEB892D1A3E1ADE00D25687 /* CFNetwork.framework */; };
@@ -157,8 +162,6 @@
 		9C947BB7163E835500842C2F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		9C947BB9163E835500842C2F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		9C947BBA163E835500842C2F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		AB0EEF1C188728C500C38FFE /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		AB0EEF1E1887295500C38FFE /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../../GoogleMaps/GoogleMaps-iOS-1.6.2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
 		AB0EEF2218872DD900C38FFE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AB0EEF2418872DEA00C38FFE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AB0EEF2618872E0800C38FFE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -210,6 +213,13 @@
 		AB3623A019A00E81000C3E09 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		AB3623A119A00E81000C3E09 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		AB46E7991A213105008DED04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "St.Paul Almanac/Images.xcassets"; sourceTree = "<group>"; };
+		AB4B89481A79D5A800E9BC4A /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		AB4B894A1A79F7FA00E9BC4A /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "../../Googlemaps1.9/GoogleMaps-iOS-1.9.1/GoogleMaps.framework"; sourceTree = "<group>"; };
+		AB4B894C1A79F91F00E9BC4A /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../../Googlemaps1.9/GoogleMaps-iOS-1.9.1/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		AB9DEE271ADECCC600BACDC5 /* 729-top-list-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "729-top-list-selected.png"; sourceTree = "<group>"; };
+		AB9DEE281ADECCC600BACDC5 /* 729-top-list-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "729-top-list-selected@2x.png"; sourceTree = "<group>"; };
+		AB9DEE2B1ADECD3F00BACDC5 /* 729-top-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "729-top-list.png"; sourceTree = "<group>"; };
+		AB9DEE2C1ADECD3F00BACDC5 /* 729-top-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "729-top-list@2x.png"; sourceTree = "<group>"; };
 		ABA23C3419A146180008FCB8 /* saint-paul-almanackk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saint-paul-almanackk.png"; sourceTree = "<group>"; };
 		ABA23C3619A14C180008FCB8 /* headerbackgrnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headerbackgrnd.png; sourceTree = "<group>"; };
 		ABA46FB019E03BFB00F941F7 /* 777-thumbs-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "777-thumbs-up.png"; sourceTree = "<group>"; };
@@ -251,6 +261,8 @@
 		ABB534DC1A1E7799006CAD0D /* faces_almanac_nav2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faces_almanac_nav2.png; sourceTree = "<group>"; };
 		ABB534DE1A1EC76D006CAD0D /* backheadalamanac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backheadalamanac.png; sourceTree = "<group>"; };
 		ABB5A0231A12C36A001495E6 /* listofurls.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = listofurls.plist; sourceTree = "<group>"; };
+		ABC6105E1ADF0A31000B0BD8 /* TwispViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwispViewController.h; sourceTree = "<group>"; };
+		ABC6105F1ADF0A31000B0BD8 /* TwispViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwispViewController.m; sourceTree = "<group>"; };
 		ABEB891E1A3E0C5700D25687 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
 		ABEB891F1A3E0C5700D25687 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
 		ABEB89201A3E0C5700D25687 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
@@ -274,6 +286,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4B894B1A79F7FA00E9BC4A /* GoogleMaps.framework in Frameworks */,
 				ABEB892E1A3E1ADE00D25687 /* CFNetwork.framework in Frameworks */,
 				ABEB892C1A3E1AD400D25687 /* libsqlite3.0.dylib in Frameworks */,
 				ABEB892A1A3E1A4200D25687 /* libGoogleAnalyticsServices.a in Frameworks */,
@@ -292,7 +305,6 @@
 				9C947B9C163E835500842C2F /* UIKit.framework in Frameworks */,
 				9C947B9E163E835500842C2F /* Foundation.framework in Frameworks */,
 				9C947BA0163E835500842C2F /* CoreGraphics.framework in Frameworks */,
-				AB0EEF1D188728C500C38FFE /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,11 +394,11 @@
 		9C947B9A163E835500842C2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB4B894A1A79F7FA00E9BC4A /* GoogleMaps.framework */,
+				AB4B89481A79D5A800E9BC4A /* GoogleMaps.framework */,
 				ABEB892D1A3E1ADE00D25687 /* CFNetwork.framework */,
 				ABEB892B1A3E1AD400D25687 /* libsqlite3.0.dylib */,
 				ABEB89291A3E1A4200D25687 /* libGoogleAnalyticsServices.a */,
-				AB0EEF1E1887295500C38FFE /* GoogleMaps.bundle */,
-				AB0EEF1C188728C500C38FFE /* GoogleMaps.framework */,
 				9C1806CB163E853B00A02D94 /* libz.dylib */,
 				9C1806C9163E852F00A02D94 /* libxml2.dylib */,
 				9C947B9B163E835500842C2F /* UIKit.framework */,
@@ -421,6 +433,9 @@
 				9C947BA2163E835500842C2F /* Supporting Files */,
 				ABA46FC019E0731400F941F7 /* AboutViewController.h */,
 				ABA46FC119E0731400F941F7 /* AboutViewController.m */,
+				AB4B894C1A79F91F00E9BC4A /* GoogleMaps.bundle */,
+				ABC6105E1ADF0A31000B0BD8 /* TwispViewController.h */,
+				ABC6105F1ADF0A31000B0BD8 /* TwispViewController.m */,
 			);
 			path = ARSSReader;
 			sourceTree = "<group>";
@@ -456,6 +471,10 @@
 		9C947BC1163E844B00842C2F /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				AB9DEE2B1ADECD3F00BACDC5 /* 729-top-list.png */,
+				AB9DEE2C1ADECD3F00BACDC5 /* 729-top-list@2x.png */,
+				AB9DEE271ADECCC600BACDC5 /* 729-top-list-selected.png */,
+				AB9DEE281ADECCC600BACDC5 /* 729-top-list-selected@2x.png */,
 				ABB2E7601A2E67A30006FD44 /* Icon-60.png */,
 				ABB2E7611A2E67A30006FD44 /* Icon-60@3x.png */,
 				ABB2E7621A2E67A30006FD44 /* Icon-72.png */,
@@ -582,6 +601,7 @@
 				ABA46FC619E074C300F941F7 /* layoutmini.css in Resources */,
 				AB18724619DF9C9A00470D6C /* 851-calendar-selected.png in Resources */,
 				AB18722B19DF9B5300470D6C /* 808-documents@2x.png in Resources */,
+				AB9DEE2D1ADECD3F00BACDC5 /* 729-top-list.png in Resources */,
 				ABB2E77E1A2E67A30006FD44 /* Icon-Small@3x.png in Resources */,
 				AB18724219DF9C9A00470D6C /* 810-document-2-selected.png in Resources */,
 				9C947BA6163E835500842C2F /* InfoPlist.strings in Resources */,
@@ -591,6 +611,7 @@
 				AB18722A19DF9B5300470D6C /* 808-documents.png in Resources */,
 				ABB2E77A1A2E67A30006FD44 /* Icon-Small-50.png in Resources */,
 				AB18722C19DF9B5300470D6C /* 810-document-2.png in Resources */,
+				AB9DEE2A1ADECCC600BACDC5 /* 729-top-list-selected@2x.png in Resources */,
 				ABB534DF1A1EC76D006CAD0D /* backheadalamanac.png in Resources */,
 				ABB2E7711A2E67A30006FD44 /* Icon-60.png in Resources */,
 				AB18720B19DF534600470D6C /* stpa_ralamaonlysmall.png in Resources */,
@@ -616,6 +637,7 @@
 				AB18724019DF9C9A00470D6C /* 808-documents-selected@2x.png in Resources */,
 				9C1806BC163E848D00A02D94 /* Defaultcomo.png in Resources */,
 				ABA46FBC19E05F1B00F941F7 /* Default@2x.png in Resources */,
+				AB9DEE2E1ADECD3F00BACDC5 /* 729-top-list@2x.png in Resources */,
 				ABB2E7731A2E67A30006FD44 /* Icon-72.png in Resources */,
 				AB18721D19DF98D200470D6C /* 851-calendar@2x.png in Resources */,
 				ABA46FB619E03C2B00F941F7 /* 777-thumbs-up-selected.png in Resources */,
@@ -624,6 +646,7 @@
 				ABA46FB319E03BFB00F941F7 /* 777-thumbs-up@2x.png in Resources */,
 				AB18720919DF426600470D6C /* stpalmanacbarlogo23.png in Resources */,
 				ABA46FC519E074C300F941F7 /* credits.html in Resources */,
+				AB4B894D1A79F91F00E9BC4A /* GoogleMaps.bundle in Resources */,
 				ABB2E77D1A2E67A30006FD44 /* Icon-Small@2x.png in Resources */,
 				ABA46FB719E03C2B00F941F7 /* 777-thumbs-up-selected@2x.png in Resources */,
 				ABB2E7771A2E67A30006FD44 /* Icon-Small-40.png in Resources */,
@@ -638,12 +661,12 @@
 				ABA46FBD19E05F1B00F941F7 /* Default-568h@2x.png in Resources */,
 				9C1806BD163E848D00A02D94 /* Defaultbbbb@2x.png in Resources */,
 				9C1806C0163E84AB00A02D94 /* arss_header.png in Resources */,
+				AB9DEE291ADECCC600BACDC5 /* 729-top-list-selected.png in Resources */,
 				AB18722119DF98D200470D6C /* 861-sun-2@2x.png in Resources */,
 				AB18722519DF9ABF00470D6C /* 738-document-1@2x.png in Resources */,
 				ABB2E7761A2E67A30006FD44 /* Icon-76@2x.png in Resources */,
 				ABA46FCA19E0E03300F941F7 /* myface.png in Resources */,
 				9C1806CE163E868400A02D94 /* Default-568h@2xold.png in Resources */,
-				AB0EEF1F1887295500C38FFE /* GoogleMaps.bundle in Resources */,
 				AB18723F19DF9C9A00470D6C /* 738-document-1-selected@2x.png in Resources */,
 				AB18724119DF9C9A00470D6C /* 809-clipboard-selected.png in Resources */,
 				ABA23C3519A146180008FCB8 /* saint-paul-almanackk.png in Resources */,
@@ -667,6 +690,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC610601ADF0A31000B0BD8 /* TwispViewController.m in Sources */,
 				9C947BA8163E835500842C2F /* main.m in Sources */,
 				9C947BAC163E835500842C2F /* AppDelegate.m in Sources */,
 				9C947BB8163E835500842C2F /* MasterViewController.m in Sources */,
@@ -768,13 +792,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					"/Users/roberthale/Developer/Googlemaps1.9/GoogleMaps-iOS-1.9.1",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARSSReader/St.Paul Almanac-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "ARSSReader/St.Paul Almanac-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/roberthale/Documents/GoogleAnalytics/GoogleAnalyticsServicesiOS_3.10,
@@ -792,13 +818,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					"/Users/roberthale/Developer/Googlemaps1.9/GoogleMaps-iOS-1.9.1",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARSSReader/St.Paul Almanac-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "ARSSReader/St.Paul Almanac-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/roberthale/Documents/GoogleAnalytics/GoogleAnalyticsServicesiOS_3.10,

@@ -33,7 +33,7 @@
         </neighborhood>
         <neighborhood>
             <name>Macalester-Groveland</name>
-            <description>Macalaster College, Grand Avenue</description>
+            <description>Macalester College, Grand Avenue</description>
             <location>44.93681,-93.16927</location>
         </neighborhood>
         <neighborhood>
@@ -70,6 +70,11 @@
             <name>Thomas Dale-Frogtown</name>
             <description>Little Mekong, Frogtown Farms</description>
             <location>44.95972,-93.12626</location>
+        </neighborhood>
+        <neighborhood>
+            <name>West Side</name>
+            <description>District del Sol, Harriet Island</description>
+            <location>44.92993,-93.07749</location>
         </neighborhood>
 </neighborhoods>
 </mapdata>
